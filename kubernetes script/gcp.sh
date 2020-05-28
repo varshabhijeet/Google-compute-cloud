@@ -11,7 +11,7 @@ gcloud components install kubectl
 
 
 #Activate service account 
-gcloud auth activate-service-account service-key@river-span-272204.iam.gserviceaccount.com --key-file /root/key/key.json
+gcloud auth activate-service-account service-key@river-span-272204.iam.gserviceaccount.com --key-file ${HOME}/key.json
 
 
 #Update gcloud component
